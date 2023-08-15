@@ -7470,6 +7470,7 @@ button.bg-dark:focus {
 
 .position-fixed {
   position: fixed !important;
+  z-index: 100;
 }
 
 .position-sticky {
@@ -7526,7 +7527,7 @@ button.bg-dark:focus {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .shadow-lg {
@@ -9915,4 +9916,11 @@ a.text-dark:hover, a.text-dark:focus {
   margin:3rem 0rem;
   background-color:var(--primaryLight);
   padding: 3rem 0rem;
+}
+
+
+.bg-breadcrumb{
+  background: rgb(192,219,234);
+  background: linear-gradient(180deg, rgba(192,219,234,1) 13%, rgba(178,164,255,1) 59%);
+ 
 }
