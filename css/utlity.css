@@ -61,3 +61,23 @@ body {
   text-align: left;
   background-color: #fff;
 }
+
+.content-p {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.li-none{
+list-style: none;
+font-weight: bold;
+list-style-position:inside;
+        margin:0;
+        padding:0;
+}
+
+.img-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
