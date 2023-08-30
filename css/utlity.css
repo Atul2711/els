@@ -81,3 +81,16 @@ list-style-position:inside;
   align-items: center;
   margin-bottom: 1rem;
 }
+
+/*--------------------------------------------------------------
+# Map
+--------------------------------------------------------------*/
+.map {
+  padding: 0;
+  margin-bottom: -6px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 380px;
+}
